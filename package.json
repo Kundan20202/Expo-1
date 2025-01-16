@@ -1,5 +1,5 @@
 {
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -28,9 +28,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "private": true
-},
-"engines": {
-  "node": "18.x"
 }
-
