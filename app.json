@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "shallow-red-marshmallows",
+    "slug": "snack-917e1601-5a4d-46ce-8087-e9fe5bf80788",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "gradleVersion": "8.2",
+            "androidGradlePluginVersion": "8.2.0"
+          }
+        }
+      ]
+    ]
+  }
+}
